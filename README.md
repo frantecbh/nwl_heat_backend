@@ -2,15 +2,15 @@
 
 Esse projeto foi desenvolvido na semana NLW Heat com as seguintes tecnologias:
 
-TypeScript
+- TypeScript
 
-Express
+- Express
 
-Prisma
+- Prisma
 
-JSON Web Token
+- JSON Web Token
 
-Socket.IO
+- Socket.IO
 
 ## Como executar
 
