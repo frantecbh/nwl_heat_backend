@@ -2,6 +2,8 @@ import { Request, Response } from "express";
 import { CreateMessageService } from "../services/CreateMessageServeice";
 
 
+
+
 class CreateMessageController {
 
   async handle(request: Request, response: Response) {
@@ -10,8 +12,7 @@ class CreateMessageController {
     const {user_id} = request;
 
     const service = new CreateMessageService();
-
-    const result = await service.execute(message, user_id)
+    const result = await service.execute(message, user_id)  
 
     return response.json(result)
 
